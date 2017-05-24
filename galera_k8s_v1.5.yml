@@ -49,7 +49,7 @@ spec:
           timeoutSeconds: 5
         volumeMounts:
         - name: datadir
-          mountPath: /var/lib/mysql
+          mountPath: /var/lib
         env:
           - name: POD_NAMESPACE
             valueFrom:
